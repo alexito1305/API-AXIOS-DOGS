@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DogWorld</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/main.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</head>
+<body>
+    <header>
+        <img src="img/logo.webp" alt="logo perro" id = "logo-perro">
+        <h1>DogWorld!!!</h1>
+    </header>
+    <div class="container">
+        <div class="dog-grid">
+            <div id="buscador">
+                <label for="breed">Buscar por raza:</label>
+                <select name="breed" id="dog-selector" class="form-control">
+                    <option value="">Todos los Perritos...</option>
+                </select>
+                <button id="find">Fotos Random 🐶</button>
+            </div>
+        </div>
+        <!--En este div se agregan nodos dinámicos-->
+        <div class="dog-grid" id="dog-grid">
+    
+        </div>
+    </div>     
+</body>
+</html>
+ 
+       
+    
+
