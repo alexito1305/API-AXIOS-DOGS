@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Nerko+One&display=swap");
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+}
+
+body,
+.card-body,
+select,
+label,
+button {
+  font-family: "Rubik", sans-serif;
+}
+
+header {
+  background-color: #00a2ff;
+  color: #201f1f;
+  text-align: center;
+  padding: 1rem 0;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+
+header h1 {
+  margin: 0;
+  margin-left: 10px;
+  font-weight: 600;
+  color: #141414;
+  font-size: 60px;
+  font-family: "Nerko One", cursive;
+  text-shadow: 2px 2px 5px rgb(32, 25, 43);
+}
+
+#logo-perro {
+  width: 200px;
+  height: auto;
+}
+
+.container {
+  text-align: center;
+  margin: 20px 0;
+  background: #fff8dc;
+}
+
+#buscador {
+  font-size: 22px;
+  font-weight: bold;
+  color: rgb(15, 15, 15);
+  text-align: center;
+}
+
+#dog-search .form-control {
+  padding: 10px;
+  width: 200px;
+  margin-right: 10px;
+  border-radius: 4px;
+  border: 1px solid #f5f5f5;
+  font-weight: bold;
+}
+
+.search-button {
+  padding: 10px 20px;
+  background-color: #9acd32;
+  border: nome;
+  cursor: pointer;
+  border-radius: 4px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  font-weight: 700;
+  color: #ffffff;
+  text-align: center;
+}
+
+.dog-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+  padding: 20px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+#dog-grid .card {
+  background-color: #fff8dc;
+  color: white;
+}
+
+#dog-grid .card img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 300px;
+  width: 300px;
+  -o-object-position: center;
+     object-position: center;
+}
+
+#dog-grid .card img:hover {
+  transform: translateY(-5px);
+}
+
+.card-body {
+  text-align: center;
+  background: #ac2323;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: all 0.25s ease;
+  cursor: pointer;
+}
+
+#find {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #9acd32;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  font-weight: 700;
+  color: #ffffff;
+  text-align: center;
+}
+
+.card-body:hover {
+  transform: translateY(-5px);
+}/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Nerko+One&display=swap");
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+body, 
+.card-body,
+select,
+label,
+button{
+    font-family: "Rubik", sans-serif;
+}
+
+header{
+    background-color: #00a2ff;
+    color: #201f1f;
+    text-align: center;
+    padding: 1rem 0;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+header h1{
+    margin: 0;
+    margin-left: 10px;
+    font-weight: 600;
+    color: #141414;
+    font-size: 60px;
+    font-family: "Nerko One", cursive;
+    text-shadow: 2px 2px 5px rgb(32, 25, 43);
+}
